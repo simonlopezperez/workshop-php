@@ -1,4 +1,4 @@
-FROM simonlopezperez/workshop-php:7.2
+FROM simonlopezperez/workshop-php:latest
 
 RUN pecl install xdebug && docker-php-ext-enable xdebug
 
